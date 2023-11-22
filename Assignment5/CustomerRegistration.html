@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Customer Registration</title>
+</head>
+<body>
+    <center>
+        <h1>Customer Registration</h1>
+    </center>
+    <center>
+        <div style="background-color: coral; width: 500px; height: 300px; margin-top: 20px;">
+            <center>
+            <form action="">
+                <table style="margin-top: 20px;">
+                    <tr>
+                        <td>Cnum:</td>
+                        <td>
+                            <input type="number" required="required" style="margin-left: 60px; width: 200px;" placeholder="1">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Cname:</td>
+                        <td>
+                            <input type="text" required="required" style="margin-left: 60px; width: 200px;" placeholder="Niraj Shaha">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Email:</td>
+                        <td>
+                            <input type="email" required="required" style="margin-left: 60px; width: 200px;" placeholder="abc@gmail.com">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Password:</td>
+                        <td>
+                            <input type="password" required="required" style="margin-left: 60px; width: 200px;" placeholder="**********">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Confirm Password:</td>
+                        <td>
+                            <input type="password" required style="margin-left: 60px; width: 200px;" placeholder="***********">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Mobile_No:</td>
+                        <td>
+                            <input type="tel" id="mobileno" required="required" style="margin-left: 60px; width: 200px;" pattern="[0-9]{10}" placeholder="8974567898">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>City:</td>
+                        <td>
+                            <input type="text" required="required" style="margin-left: 60px; width: 200px;" placeholder="Pune">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>State:</td>
+                        <td>
+                            <select name="" id="" style="margin-left: 60px;">
+                                <option value="">Select State</option>
+                                <option value="">Maharashtra</option>
+                                <option value="">Karnataka</option>
+                                <option value="">Rajasthan</option>
+                                <option value="">Kerala</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Pincode:</td>
+                        <td>
+                            <input type="number" required="required" style="margin-left: 60px; width: 200px;" placeholder="411057">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Request_Payment_Mode:</td>
+                        <td>
+                            <input type="radio" name="Payment" style="margin-left: 60px; list-style-type:square;">Credit
+                            <input type="radio" name="Payment">Debit
+                            <input type="radio" name="Payment">UPI 
+                        </td>
+                    </tr>
+                </table>
+                    <table>
+                        <td>
+                            <input type="submit" value="submit">
+                        </td>
+                    </table>
+            </form>
+            </center>
+        </div>
+    </center>
+</body>
+</html>
